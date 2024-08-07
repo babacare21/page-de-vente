@@ -1,0 +1,94 @@
+html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente en Ligne au Sénégal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 100%;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .product h2 {
+            color: #007bff;
+        }
+        .product p {
+            margin: 10px 0;
+        }
+        .product .price {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur ma page de vente en ligne</h1>
+    <p>Des produits divers disponibles au Sénégal</p>
+</header>
+
+<div class="container">
+
+    <div class="product">
+        <img src="https://via.placeholder.com/400" alt="Produit 1">
+        <h2>Produit 1</h2>
+        <p>Description du produit 1. Ce produit est de haute qualité et disponible à un prix abordable.</p>
+        <p class="price">Prix : 10 000 CFA</p>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/400" alt="Produit 2">
+        <h2>Produit 2</h2>
+        <p>Description du produit 2. Ce produit est de haute qualité et disponible à un prix abordable.</p>
+        <p class="price">Prix : 15 000 CFA</p>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/400" alt="Produit 3">
+        <h2>Produit 3</h2>
+        <p>Description du produit 3. Ce produit est de haute qualité et disponible à un prix abordable.</p>
+        <p class="price">Prix : 20 000 CFA</p>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>Contactez-nous à : email@example.com</p>
+</div>
+
+</body>
+</html>
